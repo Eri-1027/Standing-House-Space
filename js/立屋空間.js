@@ -19,7 +19,6 @@ $(document).ready(function() {
 
     // nav選單
     $('.Next').click(function(e) {
-            e.preventDefault();
             $('.nav_Next_level').toggleClass("open_Next_level").slideToggle();
         })
         // nav選單end
